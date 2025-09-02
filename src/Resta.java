@@ -1,33 +1,35 @@
-public class Resta {
-    private boolean numero1;
-    private boolean numero2;
-    private boolean resultado;
+public class Restar {
+    private double num1;
+    private double num2;
 
-    public Resta(boolean numero1, boolean numero2, boolean resultado) {
-        this.numero1 = numero1;
+    public Restar(double num1, double num2) {
+        this.num1 = num1;
+        this.num2 = num2;
     }
 
-    public boolean isNumero1() {
-        return numero1;
+    public Restar(){
+
     }
 
-    public void setNumero1(boolean numero1) {
-        this.numero1 = numero1;
+    public double getNum1() {
+        return num1;
     }
 
-    public boolean isResultado() {
-        return resultado;
+    public void setNum1(double num1) {
+        this.num1 = num1;
     }
 
-    public void setResultado(boolean resultado) {
-        this.resultado = resultado;
+    public double getNum2() {
+        return num2;
     }
 
-    public boolean isNumero2() {
-        return numero2;
+    public void setNum2(double num2) {
+        this.num2 = num2;
     }
 
-    public void setNumero2(boolean numero2) {
-        this.numero2 = numero2;
+    public double obtenerResultado(){
+        return num1 - num2;
     }
+
+
 }
