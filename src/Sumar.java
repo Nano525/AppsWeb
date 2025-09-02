@@ -1,34 +1,34 @@
 public class Sumar {
-    private double num1;
-    private double num2;
+    private double number1;
+    private double number2;
 
-    public Sumar(double num1, double num2) {
-        this.num1 = num1;
-        this.num2 = num2;
+    public Sumar(double number1, double number2) {
+        this.number1 = number1;
+        this.number2 = number2;
     }
 
     public Sumar(){
 
     }
 
-    public double getNum1() {
-        return num1;
+    public double getnumber1() {
+        return number1;
     }
 
-    public void setNum1(double num1) {
-        this.num1 = num1;
+    public void setnumber1(double number1) {
+        this.number1 = number1;
     }
 
-    public double getNum2() {
-        return num2;
+    public double getnumber2() {
+        return number2;
     }
 
-    public void setNum2(double num2) {
-        this.num2 = num2;
+    public void setnumber2(double number2) {
+        this.number2 = number2;
     }
 
     public double obtenerResultado(){
-        return num1 + num2;
+        return number1 + number2;
     }
 
 
