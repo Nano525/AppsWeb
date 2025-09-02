@@ -16,12 +16,6 @@ int opcion = lectura.nextInt();
 
 switch(opcion){
     case 1:
-        suma sumar= new suma();
-        System.out.println("----SUMAR----\n");
-        System.out.println("Ingresa el primer número:\n");
-        suma.setNum
-        System.out.println("Ingresa el segundo número:\n");
-
 
         break;
     case 2:
