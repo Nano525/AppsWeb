@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
+        int opcion;
 
 System.out.println("-------MENU DE CALCULADORA-------\n");
 System.out.println("1.Sumar");
@@ -11,9 +12,11 @@ System.out.println("2.Restar");
 System.out.println("3.Multiplicar");
 System.out.println("4.Dividir");
 System.out.println("5.Salir\n");
-System.out.println("Escoge una opcion");
-int opcion = read.nextInt();
 do {
+    System.out.println("Escoge una opcion");
+
+    opcion = read.nextInt();
+
     switch (opcion) {
         case 1:
             System.out.println("----SUMAR----\n");
